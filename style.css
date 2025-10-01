@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #ffffff; /* 背景色を白に変更 */
+    color: #000000;             /* 文字色を黒に変更 */
+}
+#answer-box {
+    padding: 10px;
+    font-size: 16px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.correct {
+    color: #008000; /* 正解時の文字色を濃い緑に変更 */
+}
+.incorrect {
+    color: #cc0000; /* 不正解時の文字色を濃い赤に変更 */
+}
+#image-container img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
